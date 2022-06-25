@@ -18,6 +18,7 @@ section{
 	"c c d d d " 
 	"c c e e e ";
 	grid-gap: 10px;
+        grid-auto-rows: 40px;
 	
 }
 .item1{
@@ -46,15 +47,4 @@ section{
 	background-color: blue;
 	padding: 20px;
 	grid-area: e;
-}
-
-.itemf{
-	background-color: orangered;
-	padding: 20px;
-	grid-area: f;
-}
-.itemg{
-	background-color:orange;
-	padding: 20px;
-	grid-area: g;
 }
